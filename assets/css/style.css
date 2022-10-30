@@ -55,16 +55,47 @@ h1 {
     background-position: bottom;
 }
 
-#hero-text {;
+#hero-text {
+    padding-top: 35vh;
     padding-left: 2rem;
 }
 
-#hero-text h1 {
-    padding-top: 38vh;
-    text-emphasis-color: green;
+#hero-text span {
+    background-color: white;
+    padding: 2px 5px;
 }
 
-#hero-text span {
-    background-color: aliceblue;
-    padding: 2px 5px;
+#hero-text p {
+    line-height: 1.8rem;
+}
+
+#dogs-adopt {
+    height: 80vh;
+    background-color: paleturquoise;
+}
+
+#dogs-adopt > h1 {
+    text-align: center;
+    padding: 3rem 0rem 4rem 0rem;
+}
+
+#dogs-carousel {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#dog-1 {
+    background-color: rebeccapurple;
+}
+
+#dog-2 {
+    background-color: greenyellow;
+}
+
+#dog-3 {
+    background-color: orangered;
+}
+
+#dog-4 {
+    background-color: violet;
 }
