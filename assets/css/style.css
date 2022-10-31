@@ -35,6 +35,10 @@ h1 {
     color: paleturquoise;
 }
 
+#logo i {
+    font-size: 1.2rem;
+}
+
 .nav-links {
     display: flex;
 }
@@ -173,4 +177,15 @@ h1 {
 
  #volunteer-or-donate > #submit:hover {
     border: 5px solid paleturquoise;
+ }
+
+ /* about us section */
+
+ #about-us {
+    background-color: paleturquoise;
+    padding: 3rem 4rem;
+ }
+
+ #about-text h1 {
+    padding-bottom: 1rem;
  }
