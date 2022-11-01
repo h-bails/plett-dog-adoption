@@ -189,3 +189,21 @@ h1 {
  #about-text h1 {
     padding-bottom: 1rem;
  }
+
+ /* Contact us section */
+
+#contact-us {
+    display: flex;
+}
+
+ #contact-box span {
+    font-weight: bolder;
+    color: seagreen;
+    margin-right: 0.7rem;
+ }
+
+ #contact-box {
+    width: 50%;
+    padding: 2rem;
+    line-height: 3rem;
+ }
