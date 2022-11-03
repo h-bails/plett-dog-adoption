@@ -11,6 +11,8 @@
 
 body {
     font-family: "Varela Round", sans-serif;
+    min-height: 100vh;
+    margin: 0;
 }
 
 h1 {
@@ -20,6 +22,10 @@ h1 {
 
 /*top navigation section */
 
+header {
+    width: 100%;
+}
+
 .top-nav {
     background: seagreen;
     display: flex;
@@ -27,7 +33,7 @@ h1 {
     width: 100%;
     padding: 1.5rem 0rem 1.5rem 1.5rem;
     line-height: 1rem;
-    position: fixed;
+
 }
 
 #logo {
@@ -49,6 +55,10 @@ h1 {
     color: white;
 }
 
+.nav-links a:hover {
+    color: paleturquoise;
+}
+
 .nav-links li {
     list-style: none;
 }
@@ -61,7 +71,17 @@ h1 {
     background-image: url("/assets/images/plett-paws-hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    resize: both;
     background-position: bottom;
+}
+
+#hero-container {
+    width: 100%;
+    height: auto;
+    background-image: url("/assets/images/plett-paws-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    resize: both;
 }
 
 #hero-text {
@@ -83,6 +103,7 @@ h1 {
 
 #dogs-adopt {
     height: 80vh;
+    width: 100%;
     background-color: paleturquoise;
 }
 
@@ -123,6 +144,8 @@ h1 {
     background-color: white;
     height: 80vh;
     width: 100%;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 #volunteer-signup > h1 {
@@ -165,7 +188,7 @@ h1 {
  }
 
  #volunteer-or-donate > #submit {
-    margin: 1.5rem 0 0 0;
+    margin: 1.5rem 0;
     padding: 0.5rem;
     background-color: seagreen;
     border: 3px solid paleturquoise;
@@ -173,6 +196,7 @@ h1 {
     font-family: "Varela Round", sans-serif;
     font-size: 1rem;
     color: white;
+    
  }
 
  #volunteer-or-donate > #submit:hover {
@@ -182,6 +206,7 @@ h1 {
  /* about us section */
 
  #about-us {
+    width: 100%;
     background-color: paleturquoise;
     padding: 3rem 4rem;
  }
@@ -193,7 +218,10 @@ h1 {
  /* Contact us section */
 
 #contact-us {
+    width: 100%;
     display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
  #contact-box span {
@@ -207,3 +235,71 @@ h1 {
     padding: 2rem;
     line-height: 3rem;
  }
+
+ /* Footer  */
+
+ footer {
+    width: 100%;
+    background-color: paleturquoise;
+ }
+
+ #social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+ }
+
+ #social-icons > a {
+    padding: 0 4rem;
+    font-size: 2rem;
+    color: black;
+ }
+
+ #social-icons > a:hover {
+    color: seagreen;
+ }
+
+ footer p {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+ }
+
+/*1110 max - put dogs on two lines
+652 max - stack navigation, put dogs on one line, put contact on one line*/
+
+@media screen and (max-width:1110px) {
+    #dogs-adopt {
+        height: auto;
+        padding-bottom: 1.5rem;
+    }
+    #dogs-carousel {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .dog-feature {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .top-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links {
+        margin-top: 1.2rem;
+    }
+    #volunteer-signup {
+        height: auto;
+    }
+    #volunteer-signup form {
+        padding: 1rem;
+    }
+    #contact-us {
+        flex-direction: column;
+    }
+    #contact-box {
+        width: 100%;
+    }
+}
