@@ -163,6 +163,7 @@ header {
 .form-field {
     background-color: lightgray;
     border: 2px solid seagreen;
+    font-family: "Varela Round", sans-serif;
 }
 
 .form-field:hover, .form-field:active {
