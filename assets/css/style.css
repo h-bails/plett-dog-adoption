@@ -195,7 +195,7 @@ header {
     padding: 1.5rem 0 0 0;
  }
 
- #volunteer-or-donate p {
+ #volunteer-or-donate legend > span {
     font-style: oblique;
  }
  
