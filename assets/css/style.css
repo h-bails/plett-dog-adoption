@@ -12,6 +12,7 @@
   html {
     scroll-behavior: smooth;
     scroll-padding-top: 4rem; /* height of fixed top nav */
+    overflow-x: hidden;
   }
 
 body {
@@ -32,6 +33,7 @@ header {
 }
 
 .top-nav {
+    height: 4rem;
     background: seagreen;
     display: flex;
     justify-content: space-between;
@@ -300,11 +302,14 @@ header {
 
 @media screen and (max-width:650px) {
     .top-nav {
+        height: auto;
         flex-direction: column;
         align-items: center;
     }
     .nav-links {
         margin-top: 1.2rem;
+        font-size: 0.8rem;
+        overflow: hidden;
     }
     #volunteer-signup {
         height: auto;
@@ -318,6 +323,14 @@ header {
     #contact-box {
         width: 100%;
     }
+    .nav-links a {
+    }
+}
+
+@media screen and (max-width:350px) {
+    .nav-links a {
+        flex-wrap: wrap-reverse;
+        }
 }
 
 /* animations */
