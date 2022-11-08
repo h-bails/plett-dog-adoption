@@ -256,6 +256,10 @@ header {
     line-height: 3rem;
  }
 
+ #contact-us iframe {
+    width: 50%;
+ }
+
  /* Footer  */
 
  footer {
@@ -323,10 +327,8 @@ header {
     #contact-us {
         flex-direction: column;
     }
-    #contact-box {
+    #contact-box, #contact-us iframe {
         width: 100%;
-    }
-    .nav-links a {
     }
 }
 
@@ -334,6 +336,17 @@ header {
     .nav-links a {
         flex-wrap: wrap-reverse;
         }
+}
+
+@media screen and (max-height:788px) and (orientation:landscape) {
+    #dogs-adopt {
+        height: auto;
+        padding-bottom: 2rem;
+    }
+    
+    #volunteer-signup {
+        height: auto;
+    }
 }
 
 /* animations */
