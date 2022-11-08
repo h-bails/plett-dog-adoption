@@ -33,6 +33,8 @@ header {
 }
 
 .top-nav {
+    box-sizing: border-box;
+    overflow: hidden;
     height: 4rem;
     background: seagreen;
     display: flex;
@@ -74,6 +76,7 @@ header {
 /* hero section */
 
 #hero-image {
+    box-sizing: border-box;
     height: 80vh;
     width: 100%;
     background-image: url("../images/plett-paws-hero.jpg");
@@ -158,6 +161,7 @@ header {
 /* volunteer sign-up section */
 
 #volunteer-signup {
+    box-sizing: border-box;
     background-color: white;
     height: 80vh;
     width: 100%;
@@ -224,7 +228,7 @@ header {
  /* about us section */
 
  #about-us {
-    width: 100%;
+    width: 100vh;
     background-color: paleturquoise;
     padding: 3rem 4rem;
  }
