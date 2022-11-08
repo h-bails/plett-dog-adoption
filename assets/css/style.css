@@ -39,6 +39,7 @@ header {
     padding: 1.5rem 0rem 1.5rem 1.5rem;
     line-height: 1rem;
     position: fixed;
+    z-index: 1;
 }
 
 #logo {
@@ -92,6 +93,8 @@ header {
 #hero-text {
     padding-top: 35vh;
     padding-left: 2rem;
+    animation: hero-animation;
+    animation-duration: 2s;
 }
 
 #hero-text span {
@@ -319,4 +322,11 @@ header {
     #contact-box {
         width: 100%;
     }
+}
+
+/* animations */
+
+@keyframes hero-animation {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
