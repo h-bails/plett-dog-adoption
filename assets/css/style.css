@@ -189,7 +189,7 @@ header {
 }
 
 #volunteer-or-donate label {
-    padding: 1rem;
+    padding: 1rem 0.2rem;
     text-align: center;
  }
 
@@ -314,9 +314,10 @@ header {
     #volunteer-signup {
         height: auto;
     }
-    #volunteer-signup form {
+    #volunteer-signup form { 
         padding: 1rem;
     }
+    
     #contact-us {
         flex-direction: column;
     }
