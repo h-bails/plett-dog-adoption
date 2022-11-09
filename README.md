@@ -71,6 +71,8 @@ _The Footer_
 - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fh-bails.github.io%2Fplett-dog-adoption%2Findex.html)
 ### CSS
 - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fh-bails.github.io%2Fplett-dog-adoption%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+### Accessibility
+- This website was tested using [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/report#/https://h-bails.github.io/plett-dog-adoption/) and found to be compatible with WCAG AA guidelines.
 
 ## Unfixed Bugs
 
