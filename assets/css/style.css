@@ -35,7 +35,7 @@ header {
 .top-nav {
     overflow: hidden;
     height: 4rem;
-    background: seagreen;
+    background: #2D8653;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -146,7 +146,7 @@ header {
 }
 
 .dog-feature a {
-    background-color:seagreen;
+    background-color:#2D8653;
     text-decoration: none;
     color: white;
     padding: 0.3rem;
@@ -181,12 +181,12 @@ header {
 
 .form-field {
     background-color: lightgray;
-    border: 2px solid seagreen;
+    border: 2px solid #2D8653;
     font-family: "Varela Round", sans-serif;
 }
 
 .form-field:hover, .form-field:active {
-    background-color: seagreen;
+    background-color: #2D8653;
     border: 2px solid paleturquoise;
 }
 
@@ -210,7 +210,7 @@ header {
  #volunteer-or-donate > #submit {
     margin: 1.5rem 0;
     padding: 0.5rem;
-    background-color: seagreen;
+    background-color: #2D8653;
     border: 3px solid paleturquoise;
     border-radius: 10%;
     font-family: "Varela Round", sans-serif;
@@ -246,7 +246,7 @@ header {
 
  #contact-box span {
     font-weight: bolder;
-    color: seagreen;
+    color: #2D8653;
     margin-right: 0.7rem;
  }
 
@@ -280,7 +280,7 @@ header {
  }
 
  #social-icons > a:hover {
-    color: seagreen;
+    color: #2D8653;
  }
 
  footer p {
