@@ -35,7 +35,7 @@ header {
 .top-nav {
     overflow: hidden;
     height: 4rem;
-    background: #2D8653;
+    background: #2A794C;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -146,7 +146,7 @@ header {
 }
 
 .dog-feature a {
-    background-color:#2D8653;
+    background-color:#2A794C;
     text-decoration: none;
     color: white;
     padding: 0.3rem;
@@ -172,6 +172,10 @@ header {
     padding: 3rem 0rem 2rem 0rem;
 }
 
+#volunteer-or-donate h2 {
+    font-size: 1.3rem;
+}
+
 #volunteer-or-donate {
     display: flex;
     flex-direction: column;
@@ -181,12 +185,12 @@ header {
 
 .form-field {
     background-color: lightgray;
-    border: 2px solid #2D8653;
+    border: 2px solid #2A794C;
     font-family: "Varela Round", sans-serif;
 }
 
 .form-field:hover, .form-field:active {
-    background-color: #2D8653;
+    background-color: #2A794C;
     border: 2px solid paleturquoise;
 }
 
@@ -210,7 +214,7 @@ header {
  #volunteer-or-donate > #submit {
     margin: 1.5rem 0;
     padding: 0.5rem;
-    background-color: #2D8653;
+    background-color: #2A794C;
     border: 3px solid paleturquoise;
     border-radius: 10%;
     font-family: "Varela Round", sans-serif;
@@ -246,7 +250,7 @@ header {
 
  #contact-box span {
     font-weight: bolder;
-    color: #2D8653;
+    color: #2A794C;
     margin-right: 0.7rem;
  }
 
@@ -280,7 +284,7 @@ header {
  }
 
  #social-icons > a:hover {
-    color: #2D8653;
+    color: #2A794C;
  }
 
  footer p {
